@@ -1,8 +1,18 @@
+.RegistrationForm {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
 .RegistrationForm__next-button {
+	margin-top: 10px;
 	background-color: #61A1F7;
 }
 
 .RegistrationForm__next-button:hover {
-	opacity: .9;
+	opacity: .83;
 	transition: ease-in-out .2s;
+	cursor: pointer;
 }

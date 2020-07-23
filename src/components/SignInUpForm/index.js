@@ -12,7 +12,7 @@ class SignInUpForm extends Component {
 
 	render() {
 		const usingForm = this.state.isRegistrationForm ? <RegistrationForm /> : <SignInForm />;
-		const buttonTitle = this.state.isRegistrationForm ? 'Вход' : 'Регистрация';
+		const buttonTitle = this.state.isRegistrationForm ? 'Войти' : 'Зарегистрироваться';
 		return (
 				<div className="FormArea">
 					<div className="FormArea__input-area">{usingForm}</div>

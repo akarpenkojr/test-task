@@ -22,3 +22,10 @@
 	border: 1px solid #61A1F7;
 	margin-bottom: 37px;
 }
+
+.FormArea__button:hover {
+	border-color: #FFFFFF;
+	background-color: #61A1F7;
+	transition: background-color .6s;
+	cursor: pointer;
+}

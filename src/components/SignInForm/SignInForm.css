@@ -1,8 +1,19 @@
+.SignInForm {
+	position: relative;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
 .SignInForm__next-button {
+	margin-top: 10px;
 	background-color: #61A1F7;
 }
 
 .SignInForm__next-button:hover {
-	opacity: .9;
+	opacity: .83;
 	transition: ease-in-out .2s;
+	cursor: pointer;
 }
