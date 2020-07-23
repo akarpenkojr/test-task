@@ -4,8 +4,9 @@ import "./RegistrationForm.css"
 class RegistrationForm extends Component {
 	render() {
 		return (
-				<div>
-					11111111
+				<div className="RegistrationForm">
+					<h3 className="RegistrationForm__title">Регистрация</h3>
+					<div className="App-button RegistrationForm__next-button">Далее</div>
 				</div>
 		);
 	}

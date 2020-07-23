@@ -16,7 +16,6 @@ class App extends Component{
     return (
       <div className="App" onClick={this.clickConsole}>
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
           {paragraph}
           <a
               className="App-link"

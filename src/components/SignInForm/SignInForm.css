@@ -1,0 +1,8 @@
+.SignInForm__next-button {
+	background-color: #61A1F7;
+}
+
+.SignInForm__next-button:hover {
+	opacity: .9;
+	transition: ease-in-out .2s;
+}
