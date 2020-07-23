@@ -29,16 +29,21 @@ class RegistrationForm extends Component {
 	}
 
 	switchSteps = () => {
-		this.setState(state => {
-			if (this.state.registrationStep === 1) {
-				return;
-			}
-			if (this.state.lastName && this.state.firstName && this.state.patronymic) {
+		if (this.state.registrationStep === 1 && this.state.password1 === this.state.password2 && this.state.password1) {
+			console.log('___---_-_!!!_-_---___', this.state.registrationStep);
+			alert(this.state.firstName + 'Вы зарегистрированы');
+			return ;
+		}
+		if (this.state.registrationStep === 1) {
+			return;
+		}
+		if (this.state.lastName && this.state.firstName && this.state.patronymic) {
+			this.setState(state => {
 				return {
-					registrationStep: this.state.registrationStep++
+					registrationStep: this.state.registrationStep + 1
 				}
-			}
-		})
+			})
+		}
 	};
 
 

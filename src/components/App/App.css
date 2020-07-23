@@ -7,10 +7,11 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
+  min-width: 320px;
 }
 
 .App-button {
-  width: 300px;
+  width: 280px;
   border-radius: 3px;
   padding: 5px 10px;
   margin-left: auto;
@@ -19,7 +20,7 @@
 
 .App-input {
   padding: 0 7px;
-  width: 300px;
+  width: 280px;
   height: 60px;
   line-height: 40px;
   border: 0;
